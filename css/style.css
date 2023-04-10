@@ -1,0 +1,128 @@
+/*-- Variaveis --*/
+:root {
+    --azul_escuro: rgb(40, 44, 85);
+    --vermelho: rgb(179, 53, 41);
+    --vermelho_escuro: rgb(62, 0, 0);
+}
+
+/*-- BODY--*/
+body {
+    margin: 0;
+}
+
+/*-- NAVBAR DE CIMA, UMA BARRA FINA, (padrao barcelona website)--*/
+.navdecima {
+    /*-- Posicao --*/
+    position: relative;
+
+    /*-- Tamanho --*/
+    width: 100%;
+    height: 50px;
+
+    /*-- Fundo --*/
+    background-image: linear-gradient(to top, var(--azul_escuro), black); 
+}
+
+
+#logos {
+    /*-- Posicao --*/
+    position: absolute;
+    display: block;
+    text-align: center;
+    padding-top: 5px;
+
+    /*-- Tamanho --*/
+    width: 100%;
+}
+
+/*-- Logo da NIke --*/
+#logo_nike {
+    /*-- Posicao --*/
+    width: 90px;
+
+    /*-- Borda --*/
+    border-right: 1px solid white;
+}
+
+/*-- Logo da Civitas --*/
+#logo_civitas {
+    /*-- Posicao --*/
+    width: 90px;
+}
+
+
+/*-- BOTAO DA NAV DE CIMA --*/
+.bot_navdecima {
+    /*-- Posicao --*/
+    top: 0;
+    display: block;
+    text-align: right;
+    margin-right: 70px;
+}
+
+#bot_login {
+    /*-- Posicao --*/
+    top: 0;
+    margin-right:10px;
+
+    /*-- Tamanho --*/
+    width: 90px;
+    height: 50px;
+
+    /*-- Fundo --*/
+    background-color: transparent;
+    border: none;
+}
+
+.material-symbols-outlined {
+    /*-- Posicao --*/
+    float: left;
+    margin-top: 10px;
+    color: white;
+}
+
+#bot_partner {
+    /*-- Posicao --*/
+    float: right;
+    margin-top: 5px;
+
+    /*-- Tamanho --*/
+    width: 200px;
+    height: 40px;
+
+    /*-- Fundo --*/
+    background-image: linear-gradient(to right, var(--vermelho_escuro), var(--vermelho));
+    border: none;
+    border-radius: 5px;
+}
+
+#img_1 {
+    /*-- Posicao --*/
+    float: left;
+    padding-top: 8px;
+    padding-left: 15px;
+
+    /*-- Tamanho --*/
+    width: 20px;
+    height: 25px;
+    border-radius: 2px ;
+}
+
+.texto_bots{
+    /*-- Posicao --*/
+    display: block;
+    text-align: center;
+
+    /*-- Cores --*/
+    color: white;
+}
+
+.texto_bots a{
+    /*-- Posicao --*/
+    display: block;
+    text-align: center;
+
+    /*-- Cores --*/
+    color: white;
+    text-decoration: none;
+}
