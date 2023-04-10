@@ -1,6 +1,7 @@
 /*-- Variaveis --*/
 :root {
-    --azul_escuro: rgb(40, 44, 85);
+    --azul_escuro: rgb(23, 26, 48);
+    --azul_claro: rgb(40, 44, 85);
     --vermelho: rgb(179, 53, 41);
     --vermelho_escuro: rgb(62, 0, 0);
 }
@@ -20,7 +21,8 @@ body {
     height: 50px;
 
     /*-- Fundo --*/
-    background-image: linear-gradient(to top, var(--azul_escuro), black); 
+    background-color: var(--azul_escuro); 
+    border-bottom: 1px solid black;
 }
 
 
@@ -125,4 +127,29 @@ body {
     /*-- Cores --*/
     color: white;
     text-decoration: none;
+}
+/*-- NAVBAR --*/
+.nav {
+    /*-- Posicao --*/
+    display: block;
+
+    /*-- Tamanho --*/
+    width: 100%;
+    height: 70px;
+
+    /*-- Fundo --*/
+    background-color: var(--azul_claro);
+}
+
+/*-- VAI SER A LOGO DE UM LADO E OS BOTOES DO OUTRO --*/
+#logonav {
+    /*-- Posicao --*/
+    display: block;
+    text-align: top left;
+    margin-top: -10px;
+    margin-left: 20px;
+    position: absolute;
+
+     /*-- Tamanho --*/
+     width: 100px;
 }
