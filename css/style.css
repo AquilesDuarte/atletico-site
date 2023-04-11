@@ -9,6 +9,8 @@
 /*-- BODY--*/
 body {
     margin: 0;
+    background: var(--vermelho);
+
 }
 
 /*-- NAVBAR DE CIMA, UMA BARRA FINA, (padrao barcelona website)--*/
@@ -24,7 +26,6 @@ body {
     background-color: var(--azul_escuro); 
     border-bottom: 1px solid black;
 }
-
 
 #logos {
     /*-- Posicao --*/
@@ -152,4 +153,18 @@ body {
 
      /*-- Tamanho --*/
      width: 100px;
+}
+
+.imgtimeinico{
+    max-width: 100%;
+}
+
+.centralizar {
+    padding-top: none;
+    max-width: calc(1080px - (30px * 2));
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    background: var(--azul_escuro);
+    color: white;
 }
